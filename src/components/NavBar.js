@@ -5,12 +5,11 @@ const NavBar = ({ title, handleChange, rate, ratingChanged }) => {
   return (
     <Navbar bg="dark" variant="dark" className="d-flex justify-content-between">
       <Navbar.Brand href="#home">
-      <img
-            src="https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png"
-            alt=""
+        <img
+            src="https://www.freepnglogos.com/uploads/red-netflix-logo-text-png-3.png"
+            alt="hbo"
             style={{ height: 70, margin: 0 }}
-          />
-      </Navbar.Brand>
+          /></Navbar.Brand>
       <div>
         <FormControl
           type="search"

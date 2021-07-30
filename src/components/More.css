@@ -1,0 +1,25 @@
+#trailer , #description {
+    font-size:30px;
+    text-align:left;
+    margin: 0;
+    font-family: 'Tourney', cursive;
+   
+    color: black;
+}
+#vedio {
+ margin-left: 200px;
+}
+#parag {
+   color:black;
+  text-align: center;
+}
+.details{
+  background:blue;  
+  background: -webkit-linear-gradient(to right,blue, #2292d3);  
+  background: linear-gradient(to right, #054ab9, #6e58e9); 
+}
+.icon {
+display: flex;
+flex-direction:row;
+justify-content:space-evenly;
+}

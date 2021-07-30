@@ -37,10 +37,56 @@
   }
 }
 .container{
-  background-color: #61dafb;
+  background-color:blue;
 }
-.d-flex justify-content-between{
-  min-height: 100vh;
+.social-container {
+  background: #eee;
+  padding: 25px 25px;
+  text-align: center;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+  color: rgb(141, 18, 18);
+}
+a.youtube {
+  color: #eb3223;
+}
 
-  padding: 10px;
+a.facebook {
+  color: #4968ad;
 }
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+h3 {
+
+  text-align: center;
+  
+  }
+  .movieList{
+    display: flex;
+    justify-content: space-between;
+flex-wrap: wrap;
+  }
+  .movie {
+    color: black;
+    font-size: 18px;
+    margin: 0px;
+    background: #4e5de9;  /* fallback for old browsers */
+ 
+  
+  }
+
+
+
+  
